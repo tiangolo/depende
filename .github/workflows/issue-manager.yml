@@ -19,7 +19,7 @@ permissions: {}
 jobs:
   issue-manager:
     if: github.repository_owner == 'fastapi'
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     permissions:
       issues: write
       pull-requests: write

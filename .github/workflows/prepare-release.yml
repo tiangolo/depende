@@ -22,7 +22,7 @@ permissions:
 
 jobs:
   prepare-release:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     timeout-minutes: 5
     permissions:
       contents: write
