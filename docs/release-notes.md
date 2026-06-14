@@ -12,6 +12,7 @@
 
 ### Internal
 
+* 👷 Tweak permissions for CI. PR [#14](https://github.com/tiangolo/depende/pull/14) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Add pre-commit with prek. PR [#8](https://github.com/tiangolo/depende/pull/8) by [@tiangolo](https://github.com/tiangolo).
 * 🔨 Add scripts for development and management. PR [#6](https://github.com/tiangolo/depende/pull/6) by [@tiangolo](https://github.com/tiangolo).
 * ✅ Add tests. PR [#7](https://github.com/tiangolo/depende/pull/7) by [@tiangolo](https://github.com/tiangolo).
