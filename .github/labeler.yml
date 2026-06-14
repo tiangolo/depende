@@ -1,0 +1,22 @@
+docs:
+  - all:
+      - changed-files:
+          - any-glob-to-any-file:
+              - docs/**
+          - all-globs-to-all-files:
+              - '!src/**'
+              - '!pyproject.toml'
+
+internal:
+  - all:
+      - changed-files:
+          - any-glob-to-any-file:
+              - .github/**
+              - scripts/**
+              - .gitignore
+              - .pre-commit-config.yaml
+              - uv.lock
+          - all-globs-to-all-files:
+              - '!docs/**'
+              - '!src/**'
+              - '!pyproject.toml'
