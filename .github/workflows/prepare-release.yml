@@ -74,11 +74,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git switch -c "$branch"
           git add "$PREPARE_RELEASE_VERSION_FILE" "$PREPARE_RELEASE_RELEASE_NOTES_FILE" uv.lock
-          git commit -m "Release version ${VERSION}"
+          git commit -m "🔖 Release version ${VERSION}"
           git push --set-upstream origin "$branch"
           gh pr create \
             --base main \
             --head "$branch" \
-            --title "Release version ${VERSION}" \
+            --title "🔖 Release version ${VERSION}" \
             --body "Prepare release ${VERSION}." \
             --label release
