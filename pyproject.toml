@@ -118,6 +118,9 @@ extend-exclude = [
     "uv.lock",
 ]
 
+[tool.typos.default.extend-identifiers]
+alls = "alls"
+
 [tool.uv.build-backend]
 source-include = [
     "scripts/test.sh",
