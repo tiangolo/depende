@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.1.1 (2026-06-14)
+
 ### Refactors
 
 * ♻️ Move internal logic out ouf `__init__.py`. PR [#3](https://github.com/tiangolo/depende/pull/3) by [@tiangolo](https://github.com/tiangolo).
