@@ -13,6 +13,7 @@ jobs:
     name: Run zizmor
     runs-on: ubuntu-latest
     permissions:
+      actions: read # Required by upload-sarif to read workflow run metadata.
       contents: read
       security-events: write # Required for upload-sarif (used by zizmor-action) to upload SARIF files.
     timeout-minutes: 5
