@@ -12,6 +12,7 @@
 
 ### Internal
 
+* 👷 Refactor workflows and permissions. PR [#19](https://github.com/tiangolo/depende/pull/19) by [@tiangolo](https://github.com/tiangolo).
 * 🔨 Update scripts, run prek. PR [#17](https://github.com/tiangolo/depende/pull/17) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Tweak CI permissions. PR [#15](https://github.com/tiangolo/depende/pull/15) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Tweak permissions for CI. PR [#14](https://github.com/tiangolo/depende/pull/14) by [@tiangolo](https://github.com/tiangolo).
