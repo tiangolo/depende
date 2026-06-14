@@ -8,6 +8,7 @@
 
 ### Internal
 
+* 🔨 Add scripts for development and management. PR [#6](https://github.com/tiangolo/depende/pull/6) by [@tiangolo](https://github.com/tiangolo).
 * ✅ Add tests. PR [#7](https://github.com/tiangolo/depende/pull/7) by [@tiangolo](https://github.com/tiangolo).
 * 🙈 Update .gitignore. PR [#4](https://github.com/tiangolo/depende/pull/4) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update `pyproject.toml`. PR [#5](https://github.com/tiangolo/depende/pull/5) by [@tiangolo](https://github.com/tiangolo).
