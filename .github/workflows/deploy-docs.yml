@@ -12,6 +12,7 @@ jobs:
   deploy-docs:
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       deployments: write
       issues: write
       pull-requests: write

@@ -8,13 +8,15 @@ on:
       - opened
       - synchronize
 
-permissions: {}
+permissions:
+  contents: read
 
 jobs:
   changes:
     runs-on: ubuntu-latest
     # Required permissions
     permissions:
+      contents: read
       pull-requests: read
     timeout-minutes: 5
     # Set job outputs to values from filter step

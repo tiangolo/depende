@@ -11,6 +11,7 @@ jobs:
   smokeshow:
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       statuses: write
     timeout-minutes: 5
     steps:

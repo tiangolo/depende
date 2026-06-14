@@ -18,7 +18,8 @@ on:
     # cron every week on monday
     - cron: "0 0 * * 1"
 
-permissions: {}
+permissions:
+  contents: read
 
 env:
   UV_NO_SYNC: true
