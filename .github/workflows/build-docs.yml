@@ -24,9 +24,10 @@ jobs:
       docs: ${{ steps.filter.outputs.docs }}
     steps:
     - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-    # For pull requests it's not necessary to checkout the code but for the main branch it is
+    # paths-filter needs the base commit on push; fetch it during checkout.
       with:
         persist-credentials: false
+        fetch-depth: 0
     - uses: dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d # v4.0.1
       id: filter
       with:
