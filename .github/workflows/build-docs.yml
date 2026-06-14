@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   changes:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     # Required permissions
     permissions:
       contents: read
@@ -45,7 +45,7 @@ jobs:
     needs:
       - changes
     if: ${{ needs.changes.outputs.docs == 'true' }}
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - name: Dump GitHub context
@@ -88,7 +88,7 @@ jobs:
     if: always()
     needs:
       - build-docs
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - name: Decide whether the needed jobs succeeded or failed

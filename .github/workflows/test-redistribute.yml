@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   test-redistribute:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - name: Dump GitHub context
@@ -54,7 +54,7 @@ jobs:
     if: always()
     needs:
       - test-redistribute
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - name: Decide whether the needed jobs succeeded or failed
