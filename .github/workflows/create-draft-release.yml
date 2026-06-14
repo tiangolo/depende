@@ -14,6 +14,7 @@ jobs:
     timeout-minutes: 5
     permissions:
       contents: write
+      pull-requests: read
     env:
       PREPARE_RELEASE_VERSION_FILE: pyproject.toml
       PREPARE_RELEASE_RELEASE_NOTES_FILE: docs/release-notes.md

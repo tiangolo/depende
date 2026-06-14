@@ -16,7 +16,9 @@ on:
         required: false
         type: string
 
-permissions: {}
+permissions:
+  contents: read
+  pull-requests: read
 
 jobs:
   prepare-release:
