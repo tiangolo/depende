@@ -40,7 +40,7 @@ repos:
         require_serial: true
         language: unsupported
         pass_filenames: false
-      
+
       - id: add-release-date
         language: unsupported
         name: add date to latest release header
