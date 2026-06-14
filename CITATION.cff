@@ -14,7 +14,7 @@ authors:
 repository-code: 'https://github.com/tiangolo/depende'
 url: 'https://depende.tiangolo.com'
 abstract: >-
-  Reusable dependency declarations.
+  Dependency declarations for Python frameworks and tools
 keywords:
   - dependency-injection
   - fastapi
