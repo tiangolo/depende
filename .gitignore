@@ -8,3 +8,12 @@ wheels/
 
 # Virtual environments
 .venv
+# Test and documentation output
+.coverage*
+.pytest_cache/
+coverage/
+htmlcov/
+site/
+site_build/
+.cache/
+.ruff_cache/
