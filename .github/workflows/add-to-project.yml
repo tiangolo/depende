@@ -2,6 +2,9 @@ name: Add to Project
 
 on:
   pull_request_target: # zizmor: ignore[dangerous-triggers]
+    types:
+      - opened
+      - reopened
   issues:
     types:
       - opened

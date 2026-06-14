@@ -55,6 +55,8 @@ jobs:
           PREPARE_RELEASE_BUMP: ${{ inputs.bump }}
           PREPARE_RELEASE_DATE: ${{ inputs.date }}
         run: uv run python scripts/prepare_release.py prepare
+      - name: Update lockfile
+        run: uv lock
       - name: Get release version
         id: release-version
         run: |
@@ -71,7 +73,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git switch -c "$branch"
-          git add "$PREPARE_RELEASE_VERSION_FILE" "$PREPARE_RELEASE_RELEASE_NOTES_FILE"
+          git add "$PREPARE_RELEASE_VERSION_FILE" "$PREPARE_RELEASE_RELEASE_NOTES_FILE" uv.lock
           git commit -m "Release version ${VERSION}"
           git push --set-upstream origin "$branch"
           gh pr create \
