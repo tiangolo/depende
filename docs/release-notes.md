@@ -8,6 +8,7 @@
 
 ### Internal
 
+* 🔧 Update `pyproject.toml`. PR [#5](https://github.com/tiangolo/depende/pull/5) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Add citation config. PR [#2](https://github.com/tiangolo/depende/pull/2) by [@tiangolo](https://github.com/tiangolo).
 * 📄 Add MIT license. PR [#1](https://github.com/tiangolo/depende/pull/1) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add CI workflows. PR [#10](https://github.com/tiangolo/depende/pull/10) by [@tiangolo](https://github.com/tiangolo).
