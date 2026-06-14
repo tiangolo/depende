@@ -1,0 +1,22 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: depende
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Sebastián
+    family-names: Ramírez
+    email: tiangolo@gmail.com
+repository-code: 'https://github.com/tiangolo/depende'
+url: 'https://depende.tiangolo.com'
+abstract: >-
+  Dependency declarations for Python frameworks and tools
+keywords:
+  - dependency-injection
+  - fastapi
+  - typer
+license: MIT
