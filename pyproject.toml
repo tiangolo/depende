@@ -1,5 +1,5 @@
 [build-system]
-requires = ["uv_build>=0.9.11,<0.10.0"]
+requires = ["uv_build>=0.11.19,<0.12.0"]
 build-backend = "uv_build"
 
 [project]
@@ -45,7 +45,7 @@ docs = [
     "griffe-warnings-deprecated >=1.1.0",
     "markdown-include-variants >=0.0.8",
     "mdx-include >=1.4.1",
-    "mkdocstrings[python] >=1.0.3",
+    "mkdocstrings[python]>=1.0.4",
     "pyyaml >=5.3.1",
     "typer >=0.24.1",
     "zensical>=0.0.42",
@@ -58,7 +58,7 @@ github-actions = [
     "smokeshow >=0.5.0",
 ]
 tests = [
-    "coverage[toml] >=6.2",
+    "coverage[toml]>=7.14.1",
     "pytest >=8.4.0",
     "ruff >=0.15.6",
     "ty>=0.0.25",
