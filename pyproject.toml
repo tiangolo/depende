@@ -4,7 +4,7 @@ build-backend = "uv_build"
 
 [project]
 name = "depende"
-version = "0.1.0"
+version = "0.1.1"
 description = "Dependency declarations for Python frameworks and tools"
 readme = "README.md"
 requires-python = ">=3.10"
