@@ -11,7 +11,7 @@ permissions: {}
 jobs:
   zizmor:
     name: Run zizmor
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     permissions:
       actions: read # Required by upload-sarif to read workflow run metadata.
       contents: read
