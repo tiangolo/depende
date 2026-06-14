@@ -1,20 +1,125 @@
-[project]
-name = "depende"
-version = "0.0.1"
-description = "Reusable dependency declarations"
-readme = "README.md"
-authors = [
-    { name = "Sebastián Ramírez", email = "tiangolo@gmail.com" }
-]
-requires-python = ">=3.10"
-dependencies = []
-
-
 [build-system]
 requires = ["uv_build>=0.9.11,<0.10.0"]
 build-backend = "uv_build"
 
+[project]
+name = "depende"
+version = "0.1.0"
+description = "Dependency declarations for Python frameworks and tools"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Sebastián Ramírez", email = "tiangolo@gmail.com" },
+]
+license = "MIT"
+license-files = ["LICENSE"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/tiangolo/depende"
+Documentation = "https://depende.tiangolo.com"
+Repository = "https://github.com/tiangolo/depende"
+Issues = "https://github.com/tiangolo/depende/issues"
+Changelog = "https://depende.tiangolo.com/release-notes/"
+
 [dependency-groups]
 dev = [
-    "pytest>=8.4.0",
+    { include-group = "docs" },
+    { include-group = "tests" },
+    "prek>=0.2.24,<1.0.0",
+    "zizmor >=1.23.1",
+]
+docs = [
+    "griffe-typingdoc >=0.3.0",
+    "griffe-warnings-deprecated >=1.1.0",
+    "markdown-include-variants >=0.0.8",
+    "mdx-include >=1.4.1",
+    "mkdocstrings[python] >=1.0.3",
+    "pyyaml >=5.3.1",
+    "typer >=0.24.1",
+    "zensical>=0.0.42",
+]
+github-actions = [
+    "httpx >=0.28.1",
+    "pydantic >=2.5.3",
+    "pydantic-settings >=2.1.0",
+    "pygithub >=2.3.0",
+    "smokeshow >=0.5.0",
+]
+tests = [
+    "coverage[toml] >=6.2",
+    "pytest >=8.4.0",
+    "ruff >=0.15.6",
+    "ty>=0.0.25",
+]
+
+[tool.coverage.run]
+parallel = true
+data_file = "coverage/.coverage"
+source = [
+    "depende",
+    "tests",
+]
+context = '${CONTEXT}'
+dynamic_context = "test_function"
+relative_files = true
+
+[tool.coverage.report]
+show_missing = true
+sort = "-Cover"
+exclude_lines = [
+    "pragma: no cover",
+    "@overload",
+    'if __name__ == "__main__":',
+    "if TYPE_CHECKING:",
+]
+
+[tool.coverage.html]
+show_contexts = true
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "C4", # flake8-comprehensions
+    "UP", # pyupgrade
+]
+ignore = [
+    "E501", # line too long
+    "B008", # do not perform function calls in argument defaults
+    "C901", # too complex
+]
+
+[tool.ty.terminal]
+error-on-warning = true
+
+[tool.typos.files]
+extend-exclude = [
+    "coverage/",
+    "dist/",
+    "docs/img/",
+    "htmlcov/",
+    "site/",
+    "site_build/",
+    "uv.lock",
+]
+
+[tool.uv.build-backend]
+source-include = [
+    "scripts/test.sh",
+    "tests/**",
 ]
