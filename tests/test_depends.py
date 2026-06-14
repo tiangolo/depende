@@ -13,6 +13,8 @@ def test_depends_returns_depends_info() -> None:
     info = Depends(dependency)
 
     assert info == DependsInfo(dependency=dependency, use_cache=True, scope=None)
+    assert info.dependency is not None
+    assert info.dependency() == "value"
 
 
 def test_depends_accepts_declaration_options() -> None:
@@ -27,4 +29,4 @@ def test_depends_info_is_frozen() -> None:
     info = Depends()
 
     with pytest.raises(FrozenInstanceError):
-        info.use_cache = False  # type: ignore[misc]
+        info.use_cache = False  # type: ignore[misc]  # ty: ignore[invalid-assignment]
