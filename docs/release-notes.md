@@ -12,6 +12,7 @@
 
 ### Internal
 
+* 👷 Run CI on self-hosted runner. PR [#21](https://github.com/tiangolo/depende/pull/21) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Refactor workflows and permissions. PR [#19](https://github.com/tiangolo/depende/pull/19) by [@tiangolo](https://github.com/tiangolo).
 * 🔨 Update scripts, run prek. PR [#17](https://github.com/tiangolo/depende/pull/17) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Tweak CI permissions. PR [#15](https://github.com/tiangolo/depende/pull/15) by [@tiangolo](https://github.com/tiangolo).
