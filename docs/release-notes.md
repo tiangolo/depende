@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ✅ Add tests. PR [#7](https://github.com/tiangolo/depende/pull/7) by [@tiangolo](https://github.com/tiangolo).
 * 🙈 Update .gitignore. PR [#4](https://github.com/tiangolo/depende/pull/4) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update `pyproject.toml`. PR [#5](https://github.com/tiangolo/depende/pull/5) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Add citation config. PR [#2](https://github.com/tiangolo/depende/pull/2) by [@tiangolo](https://github.com/tiangolo).
