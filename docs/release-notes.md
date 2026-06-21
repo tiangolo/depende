@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* 🔒️ Update zizmor workflow security checks. PR [#32](https://github.com/tiangolo/depende/pull/32) by [@tiangolo](https://github.com/tiangolo).
+
 ## 0.1.1 (2026-06-14)
 
 ### Refactors
