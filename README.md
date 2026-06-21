@@ -11,9 +11,6 @@
 <a href="https://github.com/tiangolo/depende/actions?query=workflow%3ATest+event%3Apush+branch%3Amain">
     <img src="https://github.com/tiangolo/depende/actions/workflows/test.yml/badge.svg?event=push&branch=main" alt="Test">
 </a>
-<a href="https://github.com/tiangolo/depende/actions?query=workflow%3APublish">
-    <img src="https://github.com/tiangolo/depende/actions/workflows/publish.yml/badge.svg" alt="Publish">
-</a>
 <a href="https://pypi.org/project/depende">
     <img src="https://img.shields.io/pypi/v/depende?color=%2334D058&label=pypi%20package" alt="Python package version">
 </a>
