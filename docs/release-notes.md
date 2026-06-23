@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆️ Update issue-manager to 0.7.0. PR [#33](https://github.com/tiangolo/depende/pull/33) by [@tiangolo](https://github.com/tiangolo).
 * 🔒️ Update zizmor workflow security checks. PR [#32](https://github.com/tiangolo/depende/pull/32) by [@tiangolo](https://github.com/tiangolo).
 
 ## 0.1.1 (2026-06-14)
