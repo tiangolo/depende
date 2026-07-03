@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆️ Update latest-changes to 0.6.1. PR [#37](https://github.com/tiangolo/depende/pull/37) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Simplify pull request workflow triggers. PR [#35](https://github.com/tiangolo/depende/pull/35) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update issue-manager to 0.7.1. PR [#34](https://github.com/tiangolo/depende/pull/34) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update issue-manager to 0.7.0. PR [#33](https://github.com/tiangolo/depende/pull/33) by [@tiangolo](https://github.com/tiangolo).
