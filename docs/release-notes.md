@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Docs
+
+* 🐛 Prevent Termynal controls from scrolling. PR [#43](https://github.com/tiangolo/depende/pull/43) by [@tiangolo](https://github.com/tiangolo).
+
 ### Internal
 
 * 👷 Fix latest-changes checkout target. PR [#39](https://github.com/tiangolo/depende/pull/39) by [@tiangolo](https://github.com/tiangolo).
