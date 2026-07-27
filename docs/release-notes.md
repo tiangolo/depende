@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ⬆️ Upgrade latest-changes to 0.7.1. PR [#44](https://github.com/tiangolo/depende/pull/44) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Fix latest-changes checkout target. PR [#39](https://github.com/tiangolo/depende/pull/39) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update issue-manager to 0.8.1. PR [#38](https://github.com/tiangolo/depende/pull/38) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update latest-changes to 0.6.1. PR [#37](https://github.com/tiangolo/depende/pull/37) by [@tiangolo](https://github.com/tiangolo).
