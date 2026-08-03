@@ -4,6 +4,7 @@
 
 ### Docs
 
+* 🐛 Use buttons for Termynal controls. PR [#45](https://github.com/tiangolo/depende/pull/45) by [@tiangolo](https://github.com/tiangolo).
 * 🐛 Prevent Termynal controls from scrolling. PR [#43](https://github.com/tiangolo/depende/pull/43) by [@tiangolo](https://github.com/tiangolo).
 
 ### Internal
