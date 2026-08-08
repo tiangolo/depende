@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.1.2 (2026-08-08)
+
 ### Docs
 
 * 🐛 Use buttons for Termynal controls. PR [#45](https://github.com/tiangolo/depende/pull/45) by [@tiangolo](https://github.com/tiangolo).
