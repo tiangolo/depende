@@ -24,7 +24,7 @@ jobs:
             const author = pr.user.login;
             const assoc = pr.author_association;
 
-            const botAllowlist = new Set(['dependabot[bot]']);
+            const botAllowlist = new Set(['dependabot[bot]', 'pr-submit[bot]']);
             const orgAuthorAssociations = new Set(['MEMBER', 'OWNER']);
 
             const allowed =
