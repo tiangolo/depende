@@ -9,6 +9,7 @@
 
 ### Internal
 
+* ✨ Use PR Submit for automated PRs. PR [#52](https://github.com/tiangolo/depende/pull/52) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Use PR Push commit identity. PR [#51](https://github.com/tiangolo/depende/pull/51) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Use PR Push for pre-commit. PR [#49](https://github.com/tiangolo/depende/pull/49) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Remove Zensical docs cache. PR [#47](https://github.com/tiangolo/depende/pull/47) by [@tiangolo](https://github.com/tiangolo).
