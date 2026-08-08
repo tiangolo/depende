@@ -9,6 +9,7 @@
 
 ### Internal
 
+* 👷 Use GitHub CLI for Git authentication. PR [#55](https://github.com/tiangolo/depende/pull/55) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Allow PR Submit dependency changes. PR [#54](https://github.com/tiangolo/depende/pull/54) by [@tiangolo](https://github.com/tiangolo).
 * ✨ Use PR Submit for automated PRs. PR [#52](https://github.com/tiangolo/depende/pull/52) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Use PR Push commit identity. PR [#51](https://github.com/tiangolo/depende/pull/51) by [@tiangolo](https://github.com/tiangolo).
