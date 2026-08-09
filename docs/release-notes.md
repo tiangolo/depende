@@ -9,6 +9,7 @@
 
 ### Internal
 
+* 🔧 Set Dependabot schedule interval to "monthly". PR [#56](https://github.com/tiangolo/depende/pull/56) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump https://github.com/crate-ci/typos from v1.46.0 to 1.48.0 in the pre-commit group across 1 directory. PR [#28](https://github.com/tiangolo/depende/pull/28) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group across 1 directory with 8 updates. PR [#48](https://github.com/tiangolo/depende/pull/48) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Use GitHub CLI for Git authentication. PR [#55](https://github.com/tiangolo/depende/pull/55) by [@tiangolo](https://github.com/tiangolo).
