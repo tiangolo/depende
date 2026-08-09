@@ -9,6 +9,7 @@
 
 ### Internal
 
+* ⬆ Bump the github-actions group across 1 directory with 8 updates. PR [#48](https://github.com/tiangolo/depende/pull/48) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Use GitHub CLI for Git authentication. PR [#55](https://github.com/tiangolo/depende/pull/55) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Allow PR Submit dependency changes. PR [#54](https://github.com/tiangolo/depende/pull/54) by [@tiangolo](https://github.com/tiangolo).
 * ✨ Use PR Submit for automated PRs. PR [#52](https://github.com/tiangolo/depende/pull/52) by [@tiangolo](https://github.com/tiangolo).
