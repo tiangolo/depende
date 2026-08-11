@@ -448,6 +448,9 @@ wheels = [
 name = "depende"
 version = "0.1.1"
 source = { editable = "." }
+dependencies = [
+    { name = "typing-extensions" },
+]
 
 [package.dev-dependencies]
 dev = [
@@ -491,6 +494,7 @@ tests = [
 ]
 
 [package.metadata]
+requires-dist = [{ name = "typing-extensions", specifier = ">=4.0" }]
 
 [package.metadata.requires-dev]
 dev = [

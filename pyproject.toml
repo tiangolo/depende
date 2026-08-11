@@ -24,7 +24,9 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
     "Typing :: Typed",
 ]
-dependencies = []
+dependencies = [
+    "typing-extensions>=4.0",
+]
 
 [project.urls]
 Homepage = "https://github.com/tiangolo/depende"
