@@ -9,6 +9,7 @@
 
 ### Internal
 
+* 👷 Migrate automatic labels to Latest Changes. PR [#59](https://github.com/tiangolo/depende/pull/59) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Remove legacy label check. PR [#58](https://github.com/tiangolo/depende/pull/58) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Set Dependabot schedule interval to "monthly". PR [#56](https://github.com/tiangolo/depende/pull/56) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump https://github.com/crate-ci/typos from v1.46.0 to 1.48.0 in the pre-commit group across 1 directory. PR [#28](https://github.com/tiangolo/depende/pull/28) by [@dependabot[bot]](https://github.com/apps/dependabot).
