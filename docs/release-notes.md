@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Upgrades
+
+* ⬆️ Use latest-known uv and upgrade GitHub Actions. PR [#67](https://github.com/tiangolo/depende/pull/67) by [@dependabot[bot]](https://github.com/apps/dependabot).
+
 ### Docs
 
 * 🎨 Enable Ruff formatting for Python in Markdown. PR [#66](https://github.com/tiangolo/depende/pull/66) by [@tiangolo](https://github.com/tiangolo).
