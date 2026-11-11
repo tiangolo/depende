@@ -4,6 +4,7 @@
 
 ### Upgrades
 
+* ⬆️ Add support for Python 3.15 and 3.15t. PR [#68](https://github.com/tiangolo/depende/pull/68) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Use latest-known uv and upgrade GitHub Actions. PR [#67](https://github.com/tiangolo/depende/pull/67) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
 ### Docs
