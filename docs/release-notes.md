@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.1.2 (2026-11-11)
+
 ### Upgrades
 
 * ⬆️ Add support for Python 3.15 and 3.15t. PR [#68](https://github.com/tiangolo/depende/pull/68) by [@tiangolo](https://github.com/tiangolo).
