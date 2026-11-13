@@ -7,7 +7,7 @@ name = "depende"
 version = "0.1.2"
 description = "Dependency declarations for Python frameworks and tools"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 authors = [
     { name = "Sebastián Ramírez", email = "tiangolo@gmail.com" },
 ]
@@ -17,7 +17,6 @@ classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
@@ -59,7 +58,7 @@ github-actions = [
     "smokeshow >=0.5.0",
 ]
 tests = [
-    "coverage[toml] >=6.2",
+    "coverage[toml] >=7.3.1",
     "pytest >=8.4.0",
     "ruff >=0.16.0",
     "ty>=0.0.25",
