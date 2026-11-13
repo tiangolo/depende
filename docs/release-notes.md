@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Breaking Changes
+
+* 💥 Drop Python 3.10 support. PR [#70](https://github.com/tiangolo/depende/pull/70) by [@tiangolo](https://github.com/tiangolo).
+
 ## 0.1.2 (2026-11-11)
 
 ### Upgrades
