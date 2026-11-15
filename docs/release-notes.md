@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* 👷 Limit the full test matrix to Python 3.15. PR [#72](https://github.com/tiangolo/depende/pull/72) by [@tiangolo](https://github.com/tiangolo).
+
 ## 0.1.3 (2026-11-13)
 
 ### Breaking Changes
