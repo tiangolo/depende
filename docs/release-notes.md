@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 🔒️ Generate GH actions workflow lockfile and bump Zizmor. PR [#73](https://github.com/tiangolo/depende/pull/73) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 👷 Remove the dependency guard workflow. PR [#74](https://github.com/tiangolo/depende/pull/74) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Limit the full test matrix to Python 3.15. PR [#72](https://github.com/tiangolo/depende/pull/72) by [@tiangolo](https://github.com/tiangolo).
 
